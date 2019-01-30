@@ -24,4 +24,4 @@ projectFilesBackup
 dist/
 
 yarn.lock
-assets/built
+assets/built/*
