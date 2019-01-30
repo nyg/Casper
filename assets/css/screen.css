@@ -818,7 +818,15 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-full-content li {
     word-break: break-word;
     line-height: inherit;
-    margin: 0;
+}
+
+/* lists of lists */
+.post-full-content ol ol,
+.post-full-content ul ul,
+.post-full-content ul ol,
+.post-full-content ol ul,
+.post-full-content li {
+    margin: 0px;
 }
 
 .post-full-content a {
@@ -840,10 +848,6 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-full-content small {
     display: inline-block;
     line-height: 1.6em;
-}
-
-.post-full-content li:first-child {
-    margin-top: 0;
 }
 
 .post-full-content img,
