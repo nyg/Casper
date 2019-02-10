@@ -743,6 +743,7 @@ make sure this only happens on large viewports / desktop-ish devices.
     margin: 0 auto;
     padding: 70px 100px 0;
     min-height: 230px;
+    color: color(var(--darkgrey) l(-5%));
     font-family: 'Noto Serif', serif;
     font-size: 2rem;
     line-height: 1.6em;
@@ -838,11 +839,6 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-full-content a:hover {
     color: var(--blue);
     text-decoration: none;
-}
-
-.post-full-content strong,
-.post-full-content em {
-    color: color(var(--darkgrey) l(-5%));
 }
 
 .post-full-content small {
