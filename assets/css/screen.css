@@ -675,7 +675,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 
 .post-full-header {
     margin: 0 auto;
-    padding: 6vw 3vw 3vw;
+    padding: 3vw;
     max-width: 1040px;
     text-align: center;
 }
@@ -1279,7 +1279,7 @@ Usage (In Ghost editor):
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 3vw 0 6vw 0;
+    padding: 3vw 0 0 0;
     max-width: 840px;
 }
 
@@ -2221,7 +2221,7 @@ Usage (In Ghost editor):
 .site-footer {
     position: relative;
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     color: #fff;
     background: color(var(--darkgrey) l(-15%));
 }
