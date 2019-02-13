@@ -22,6 +22,3 @@ projectFilesBackup
 .DS_Store
 
 dist/
-
-yarn.lock
-assets/built/*
