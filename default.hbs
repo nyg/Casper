@@ -88,6 +88,7 @@
     <script src="{{asset "built/casper.js"}}"></script>
 
     {{!-- Scripts for Members subscription --}}
+    {{#if @labs.members}}
     <script>
         // Parse the URL parameter
         function getParameterByName(name, url) {
@@ -119,6 +120,7 @@
             });
         });
     </script>
+    {{/if}}
 
     {{!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. --}}
     {{{block "scripts"}}}
