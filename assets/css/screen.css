@@ -912,7 +912,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .post-full-custom-excerpt {
     margin: 20px 0 0;
     color: var(--midgrey);
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     line-height: 1.4em;
     font-weight: 300;
 }
@@ -944,7 +944,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin: 0 auto;
     padding: 0 170px 6vw;
     min-height: 230px;
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     line-height: 1.6em;
     background: #fff;
 }
@@ -957,12 +957,12 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 @media (max-width: 800px) {
     .post-full-content {
         padding: 0 5vw;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 }
 @media (max-width: 500px) {
     .post-full-custom-excerpt {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
         line-height: 1.5em;
     }
 }
