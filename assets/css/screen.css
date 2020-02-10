@@ -1365,29 +1365,6 @@ Usage (In Ghost editor):
     border-spacing: 0;
     border-collapse: collapse;
     font-size: 1.6rem;
-    white-space: nowrap;
-    vertical-align: top;
-}
-
-.post-full-content table {
-    -webkit-overflow-scrolling: touch;
-    background: radial-gradient(ellipse at left, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 75%) 0 center, radial-gradient(ellipse at right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 75%) 100% center;
-    background-attachment: scroll, scroll;
-    background-size: 10px 100%, 10px 100%;
-    background-repeat: no-repeat;
-}
-
-.post-full-content table td:first-child {
-    background-image: linear-gradient(to right, rgba(255,255,255, 1) 50%, rgba(255,255,255, 0) 100%);
-    background-size: 20px 100%;
-    background-repeat: no-repeat;
-}
-
-.post-full-content table td:last-child {
-    background-image: linear-gradient(to left, rgba(255,255,255, 1) 50%, rgba(255,255,255, 0) 100%);
-    background-position: 100% 0;
-    background-size: 20px 100%;
-    background-repeat: no-repeat;
 }
 
 .post-full-content table th {
@@ -1404,6 +1381,7 @@ Usage (In Ghost editor):
 .post-full-content table td {
     padding: 6px 12px;
     border: color(var(--whitegrey) l(-1%) s(-5%)) 1px solid;
+    vertical-align: middle;
 }
 
 
