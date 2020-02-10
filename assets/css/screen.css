@@ -2022,11 +2022,9 @@ Usage (In Ghost editor):
 }
 
 .post-full-content figcaption {
-    margin: 1.0em 0 0;
-    color: color(var(--midgrey) l(-10%));
-    font-size: 75%;
+    font-size: 80%;
     line-height: 1.5em;
-    text-align: center;;
+    text-align: center;
 }
 
 .kg-width-full figcaption {
