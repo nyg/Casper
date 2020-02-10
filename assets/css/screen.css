@@ -856,7 +856,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .post-template .site-main,
 .page-template .site-main {
     margin-top: 64px;
-    padding-bottom: 4vw;
+    padding-bottom: 1vw;
     background: #fff;
 }
 
@@ -942,7 +942,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .post-full-content {
     position: relative;
     margin: 0 auto;
-    padding: 0 170px 6vw;
+    padding: 0 170px;
     min-height: 230px;
     font-size: 1.8rem;
     line-height: 1.6em;
@@ -1414,8 +1414,7 @@ Usage (In Ghost editor):
 .post-full-byline {
     display: flex;
     justify-content: space-between;
-    margin: 35px 0 0;
-    padding-top: 15px;
+    padding: 15px 0;
     border-top: 1px solid color(var(--lightgrey) l(+10%));
 }
 
@@ -2675,8 +2674,7 @@ Usage (In Ghost editor):
 
 .site-footer {
     position: relative;
-    padding-top: 20px;
-    padding-bottom: 60px;
+    padding: 10px 0;
     color: #fff;
     background: color(var(--darkgrey) l(-5%));
 }
