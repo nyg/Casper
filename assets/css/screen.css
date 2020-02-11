@@ -1398,8 +1398,7 @@ Usage (In Ghost editor):
 .post-full-byline-content {
     flex-grow: 1;
     display: flex;
-    align-items: flex-start;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    align-items: center;
 }
 
 .post-full-byline-content .author-list {
@@ -1409,18 +1408,17 @@ Usage (In Ghost editor):
 
 .post-full-byline-meta {
     margin: 2px 0 0;
-    color: color(var(--midgrey) l(+10%));
-    font-size: 1.2rem;
-    line-height: 1.2em;
+    color: var(--midgrey);
+    font-size: 1.5rem;
+    line-height: 1.4em;
     letter-spacing: 0.2px;
-    text-transform: uppercase;;
 }
 
 .post-full-byline-meta h4 {
     margin: 0 0 3px;
-    font-size: 1.3rem;
-    line-height: 1.4em;
-    font-weight: 500;
+    font-size: 1.7rem;
+    line-height: 1.7em;
+    font-weight: bold;
 }
 
 .post-full-byline-meta h4 a {
@@ -1448,81 +1446,6 @@ Usage (In Ghost editor):
     transition: all 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99) 700ms;
 }
 
-.author-list-item .author-card {
-    position: absolute;
-    bottom: 130%;
-    left: 50%;
-    z-index: 600;
-    display: flex;
-    justify-content: space-between;
-    margin-left: -200px;
-    width: 400px;
-    font-size: 1.4rem;
-    line-height: 1.5em;
-    background: white;
-    border-radius: 3px;
-    box-shadow: rgba(39,44,49,0.08) 0 12px 26px, rgba(39, 44, 49, 0.06) 1px 3px 8px;
-    opacity: 0;
-    transition: all 0.35s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-    transform: scale(0.98) translateY(15px);
-    pointer-events: none;
-}
-
-.author-list-item .author-card:before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    display: block;
-    margin-left: -8px;
-    width: 0;
-    height: 0;
-    border-top: 8px solid #fff;
-    border-right: 8px solid transparent;
-    border-left: 8px solid transparent;
-}
-
-.author-list-item .author-card.hovered {
-    opacity: 1.0;
-    transform: scale(1) translateY(0px);
-    pointer-events: auto;
-}
-
-.author-card {
-    padding: 20px 20px 22px;
-}
-
-.author-card .author-info {
-    flex: 1 1 auto;
-    padding: 0 0 0 20px;
-}
-
-.author-card .author-info h2 {
-    margin: 8px 0 0;
-    font-size: 1.6rem;
-}
-
-.author-card .author-info p {
-    margin: 4px 0 0;
-    color: color(var(--midgrey) l(-10%));
-}
-
-.author-card .author-info .bio h2 {
-    margin-top: 0;
-}
-
-.author-card .author-info .bio p {
-    margin-top: 0.8em;
-}
-
-.author-card .author-profile-image {
-    flex: 0 0 60px;
-    margin: 0;
-    width: 60px;
-    height: 60px;
-    border: none;
-}
-
 .basic-info .avatar-wrapper {
     position: relative;
     margin: 0;
@@ -1537,23 +1460,6 @@ Usage (In Ghost editor):
     width: 60px;
     height: 60px;
     opacity: 0.15;
-}
-
-@media (max-width: 1170px) {
-    .author-list-item .author-card {
-        margin-left: -50px;
-        width: 430px;
-    }
-
-    .author-list-item .author-card:before {
-        left: 50px;
-    }
-}
-
-@media (max-width: 650px) {
-    .author-list-item .author-card {
-        display: none;
-    }
 }
 
 @media (max-width: 500px) {
@@ -2797,15 +2703,6 @@ Usage (In Ghost editor):
 
     .post-full-byline-meta h4 a:hover {
         color: #fff;
-    }
-
-    .author-list-item .author-card {
-        background: color(var(--darkmode) l(+4%));
-        box-shadow: 0 12px 26px rgba(0,0,0,0.4);
-    }
-
-    .author-list-item .author-card:before {
-        border-top-color: color(var(--darkmode) l(+4%));
     }
 
     .no-image .author-social-link a {
