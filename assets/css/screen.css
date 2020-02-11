@@ -1005,11 +1005,19 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     }
 }
 
+/* lists of lists */
+.post-full-content ol ol,
+.post-full-content ul ul,
+.post-full-content ul ol,
+.post-full-content ol ul {
+    margin: 0;
+}
+
 .post-full-content li {
     word-break: break-word;
 }
 
-.post-full-content li p {
+.post-full-content li, .post-full-content li p {
     margin: 0;
 }
 
@@ -1029,10 +1037,6 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .post-full-content small {
     display: inline-block;
     line-height: 1.6em;
-}
-
-.post-full-content li:first-child {
-    margin-top: 0;
 }
 
 .post-full-content img,
